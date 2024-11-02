@@ -1,0 +1,13 @@
+# 로그 파일과 외부 패키지들이 설치되는 node_modules/ 폴더를 깃으로 관리하지 않겠다고 지정합니다.
+
+#Logs
+Logs
+*.Logs
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+
+# 폴더 말고 개별 파일도 지정 가능. 깃으로 관리할 필요가 없는 파일이 생길 때마다 해당 .gitignore 파일에 추가하면 됨
+# .git 파일에 포함된 파일은 수정이 일어나도 깃에서 변경된 파일이라고 알려주지 않음.
